@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> <%= title%> </title>
+  <link rel="stylesheet" href="/stylesheets/style.css"/>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="/javascripts/chatcli.js"></script>
+</head>
+<body>
+<h1> <%= title%> </h1>
+<p> <h2> Welcome to <%= title%> </h2> </p>
+<div id="chatview">
+  <form onsubmit="return false;">
+    <input size="120" id="chatmsg" />
+    <button onclick="sendMessage()">Send</button>
+  </form>
+</div>
+</body>
+</html>
