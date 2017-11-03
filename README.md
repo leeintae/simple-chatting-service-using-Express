@@ -1,6 +1,7 @@
 # simple-chatting-service-using-Express
 
-Language    : HTML, CSS, JavaScript, Node.js, Express<br><br>
+Client : HTML, CSS, JavaScript<br><br>
+Server : Node.js, Express<br><br>
 Tool        : WebStorm(version 2017.2.3)<br><br>
 Description : Multiple clients can use this chatting service on the web browser to chat each other.<br><br>
 Scenario    :
